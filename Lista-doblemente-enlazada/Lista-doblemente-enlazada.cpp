@@ -46,7 +46,7 @@ void BorrarLista(Nodo*& cabeza, Nodo*& cola) {
 		// se imprime antes de delete: despues el nodo ya no existe
 		cout << "Elemento borrado " << contador
 			<< "| Dato: " << cabeza->dato
-			<< "Direccion: " << cabeza << endl;		
+			<< "| Direccion: " << cabeza << endl;		
 		delete cabeza;
 		cabeza = siguiente;
 	}
